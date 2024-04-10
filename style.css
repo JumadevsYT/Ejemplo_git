@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(30, 17, 130);
+}
+
+.contenedor-imagenes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: .8em;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 1em;
+}
+
+.imagen {
+    width: 10em;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    box-shadow: 0px 0px 10px 2px #c0a406;
+    transition: filter 200ms ease-in, width 200ms ease-in;
+    -webkit-transition: filter 200ms ease-in, width 200ms ease-in;
+    -moz-transition: filter 200ms ease-in, width 200ms ease-in;
+    -ms-transition: filter 200ms ease-in, width 200ms ease-in;
+    -o-transition: filter 200ms ease-in, width 200ms ease-in;
+}
+
+.imagen:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    width: 20.5em;
+}
+
+.imagen:hover img{
+    width: 100%;
+}
+
+.imagen img{
+    object-fit: cover;
+    width: 180%;
+    height: 100%;
+    display: block;
+    transition: width 200ms ease-in;
+    -webkit-transition: width 200ms ease-in;
+    -moz-transition: width 200ms ease-in;
+    -ms-transition: width 200ms ease-in;
+    -o-transition: width 200ms ease-in;
+}
