@@ -7,15 +7,17 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <nav><div class="logo">Jumadevs Gallery</div></nav>
+  <nav><div class="logo">Jumadevs Gallery</div><a href="index.html" style="color:#a3a3a3;text-decoration:none;">← Back</a></nav>
   <main style="max-width:600px;margin:8rem auto;padding:0 1.5rem;">
-    <h1 style="font-size:2.5rem;margin-bottom:2rem;">Contact Us</h1>
+    <h1 style="font-size:2.5rem;margin-bottom:0.5rem;">Contact Us</h1>
+    <p style="color:#a3a3a3;margin-bottom:2rem;">We'd love to hear from you.</p>
     <form id="contactForm" style="display:flex;flex-direction:column;gap:1.5rem;">
-      <input type="text" placeholder="Name" required style="background:#1a1a1a;border:1px solid #333;border-radius:8px;padding:0.75rem;color:#e5e5e5;" />
-      <input type="email" placeholder="Email" required style="background:#1a1a1a;border:1px solid #333;border-radius:8px;padding:0.75rem;color:#e5e5e5;" />
-      <textarea placeholder="Message" rows="5" required style="background:#1a1a1a;border:1px solid #333;border-radius:8px;padding:0.75rem;color:#e5e5e5;"></textarea>
-      <button type="submit" class="btn">Send</button>
+      <input type="text" placeholder="Your name" required style="background:#1a1a1a;border:1px solid #333;border-radius:8px;padding:0.75rem;color:#e5e5e5;" />
+      <input type="email" placeholder="you@example.com" required style="background:#1a1a1a;border:1px solid #333;border-radius:8px;padding:0.75rem;color:#e5e5e5;" />
+      <textarea placeholder="Tell us something..." rows="5" required style="background:#1a1a1a;border:1px solid #333;border-radius:8px;padding:0.75rem;color:#e5e5e5;font-family:inherit;"></textarea>
+      <button type="submit" class="btn">Send Message</button>
     </form>
   </main>
+  <script src="contact.js"></script>
 </body>
 </html>
