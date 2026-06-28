@@ -17,3 +17,14 @@ nav { display: flex; justify-content: space-between; align-items: center; paddin
 .card span { position: absolute; bottom: 0; left: 0; right: 0; padding: 1rem; background: linear-gradient(transparent, rgba(0,0,0,0.8)); }
 .about { padding: 6rem 3rem; background: #111; }
 footer { padding: 2rem 3rem; text-align: center; color: #525252; }
+
+/* Mobile */
+@media (max-width: 768px) {
+  nav { padding: 1rem 1.5rem; }
+  .nav-links { display: none; }
+  .hero { padding: 0 1.5rem; }
+  .hero-content h1 { font-size: 2.5rem; }
+  .gallery { padding: 3rem 1.5rem; }
+  .gallery-grid { grid-template-columns: 1fr; }
+  .about { padding: 3rem 1.5rem; }
+}
