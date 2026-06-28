@@ -1,3 +1,11 @@
-# Ejemplo Git
+# Jumadevs Gallery
 
-A test project for Jumadevs GitHub integration.
+A photography gallery built collaboratively with Jumadevs.
+
+## Features
+- Hero section with smooth scroll
+- Image gallery with hover effects
+- Dark theme
+
+## Built by
+The Jumadevs community.
