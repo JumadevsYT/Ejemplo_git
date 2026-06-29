@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Imagenes chicas</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jumadevs Gallery</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-    <div class="contenedor-imagenes">
-        <ul class="container">
-            <li class="imagen">
-                <img src="./img/1.jpg" alt="" />
-            </li>
-            <li class="imagen">
-                <img src="./img/2.jpg" alt="" />
-            </li>
-            <li class="imagen">
-                <img src="./img/3.jpg" alt="" />
-            </li>
-            <li class="imagen">
-                <img src="./img/4.jpg" alt="" />
-            </li>
-            <li class="imagen">
-                <img src="./img/1.jpg" alt="" />
-            </li>
-            <li class="imagen">
-                <img src="./img/3.jpg" alt="" />
-            </li>
-        </ul>
+  <header class="hero">
+    <nav>
+      <div class="logo">Jumadevs Gallery</div>
+      <ul class="nav-links">
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Beautiful Photography</h1>
+      <p>A curated collection of stunning images.</p>
+      <a href="#gallery" class="btn">Explore Gallery</a>
     </div>
+  </header>
+  <section id="gallery" class="gallery">
+    <div class="gallery-header">
+      <h2>Our Collection</h2>
+      <input type="text" id="search" placeholder="Search photos..." class="search-input" />
+    </div>
+    <div class="gallery-grid">
+      <div class="card"><img src="./img/1.jpg" alt="Photo 1" /><span>Mountain Bike</span></div>
+      <div class="card"><img src="./img/2.jpg" alt="Photo 2" /><span>City Lights</span></div>
+      <div class="card"><img src="./img/3.jpg" alt="Photo 3" /><span>Ocean Waves</span></div>
+      <div class="card"><img src="./img/4.jpg" alt="Photo 4" /><span>Forest Trail</span></div>
+    </div>
+  </section>
+  <section id="about" class="about">
+    <h2>About</h2>
+    <p>A demo project built with Jumadevs.</p>
+  </section>
+  <footer id="contact"><p>2026 Jumadevs Gallery</p></footer>
+  <script src="app.js"></script>
+  <script src="search.js"></script>
 </body>
-
 </html>
